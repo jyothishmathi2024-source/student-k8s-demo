@@ -49,4 +49,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/jyothishmathi2024-source/student-k8s-demo:latest
+          tags: |
+          ghcr.io/jyothishmathi2024-source/student-k8s-demo:latest
+          ghcr.io/jyothishmathi2024-source/student-k8s-demo:${{ github.sha }}
